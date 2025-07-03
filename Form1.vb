@@ -19,8 +19,8 @@ Public Class Form1
             If e.Keys.Keycode = Keys.Tab Then
 
                 e.Cancel = True
-                HtmlEditControl1.InsertAtCursor("&nbsp;&nbsp;", Zoople.HTMLEditControl.ed_InsertType.ed_InsertReplaceSelection)
-                ' HtmlEditControl1.InsertHTMLElement("span").InnerHtml = "&nbsp;&nbsp;"
+                HtmlEditControl1.InsertAtCursor("&nbsp;&nbsp;", HTMLEditControl.ed_InsertType.ed_InsertReplaceSelection)
+
             End If
         End If
 
