@@ -20,6 +20,7 @@ Public Class Form1
 
                 e.Cancel = True
                 HtmlEditControl1.InsertAtCursor("&nbsp;&nbsp;", HTMLEditControl.ed_InsertType.ed_InsertReplaceSelection)
+                Debug.Print("CancellableUserInteraction - TAB Pressed")
 
             End If
         End If
